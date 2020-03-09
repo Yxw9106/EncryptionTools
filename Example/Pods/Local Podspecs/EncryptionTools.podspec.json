@@ -1,0 +1,22 @@
+{
+  "name": "EncryptionTools",
+  "version": "0.1.0",
+  "summary": "A short description of EncryptionTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xwy/EncryptionTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xwy": "17639605676@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xwy/EncryptionTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EncryptionTools/Classes/**/*"
+}

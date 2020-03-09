@@ -1,0 +1,16 @@
+PODS:
+  - EncryptionTools (0.1.0)
+
+DEPENDENCIES:
+  - EncryptionTools (from `../`)
+
+EXTERNAL SOURCES:
+  EncryptionTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EncryptionTools: 5272512750ea597279c2ac54e08e8b84fd4b334a
+
+PODFILE CHECKSUM: f7a25edf980b23314cb20a0fea9a462cac21d6ea
+
+COCOAPODS: 1.7.1

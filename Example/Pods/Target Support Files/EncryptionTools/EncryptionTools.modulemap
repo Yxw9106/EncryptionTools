@@ -1,0 +1,6 @@
+framework module EncryptionTools {
+  umbrella header "EncryptionTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
