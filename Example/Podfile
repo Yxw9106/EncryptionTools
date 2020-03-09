@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'EncryptionTools_Example' do
+  pod 'EncryptionTools', :path => '../'
+
+  target 'EncryptionTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
