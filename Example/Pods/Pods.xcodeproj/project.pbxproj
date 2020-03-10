@@ -16,7 +16,6 @@
 		99CC74C1E53F3DB128C6D430BFC19631 /* EncryptionTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C2FFF3C4BC5E8247E47BD922BA9813 /* EncryptionTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CF620D1EFB60410679D5BD5D2B7291B /* Pods-EncryptionTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16968119B14299E5A3171DB1C958DB03 /* Pods-EncryptionTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D488CBDA4E1AE53ED6D4CBEA17304234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DDFF2D1AFD3071FA6495BB3B23C2EFC3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DEECEE057B4951EF720A9C39AE169AE3 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		CA755BB2FEDE8CED1A4DB07CA0A1F075 /* Pods-EncryptionTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EncryptionTools_Tests.modulemap"; sourceTree = "<group>"; };
 		CAB4E386CDE06E067B408529FCFD791A /* Pods-EncryptionTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncryptionTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2F22576490284055648B96825C0279 /* EncryptionTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EncryptionTools.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		DEECEE057B4951EF720A9C39AE169AE3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EncryptionTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DF3F0808E8817104A69A9A7ECAF084E2 /* Pods-EncryptionTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncryptionTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E80680EF7A1035F47BE7A91826974F42 /* Pods-EncryptionTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EncryptionTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F1DAED56F7C0356DD038FD203FEC58E6 /* Pods-EncryptionTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncryptionTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 		255560AB8B4C6F9ABA20A6C465871B7E /* EncryptionTools */ = {
 			isa = PBXGroup;
 			children = (
-				DEECEE057B4951EF720A9C39AE169AE3 /* ReplaceMe.m */,
 				99C99299C01EE0CD7C225B9E6E230361 /* Pod */,
 				B56B9D5B80C5F0F20C68554862A3A0D2 /* Support Files */,
 			);
@@ -381,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBDA3161A48F540B213BCDE0CCFEEF2 /* EncryptionTools-dummy.m in Sources */,
-				DDFF2D1AFD3071FA6495BB3B23C2EFC3 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
